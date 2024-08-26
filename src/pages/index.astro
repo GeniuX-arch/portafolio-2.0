@@ -3,10 +3,10 @@ import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
 ---
 
-<Layout title="Welcome to Astro.">
-	<main class="flex flex-row text-white m-10 p-5 tarjeta rounded-2xl">
+<Layout title="Welcome to Astro." >
+	<main class="lg:flex lg:flex-row text-white m-10 p-5 tarjeta rounded-2xl lg:w-3/5 w-4/5 flex flex-col justify-center items-center">
 
-		<img src="" alt="">
+		<img src="../../public/perfil.jpeg" alt="" class="w-64 h-64 rounded-2xl">
 
 		<article class="m-5">
 			<div class=" flex flex-row justify-between">
@@ -28,19 +28,18 @@ import Card from '../components/Card.astro';
 	</main>	
 
 
-	<section class="flex flex-row text-white m-10 p-5 tarjeta rounded-2xl ">
+	<section class="flex flex-row text-white m-10 p-5 tarjeta rounded-2xl  w-3/5">
 		<h1 class="text-3xl">Tecnologías</h1>
 	</section>
 
 
-	<section class="flex flex-col text-white m-10 p-5 tarjeta rounded-2xl ">
+	<section class="flex flex-col text-white m-10 p-5 tarjeta rounded-2xl  w-3/5">
 		<h1 class="text-3xl">Proyectos</h1>
 		<ul>
 			<li>
 				<p>proyecto1</p>
 				<p>description</p>
 				<ul><li>tecnologias</li></ul>
-				<img src="" alt="">
 				<a href="" class="boton"><img src="" alt=""></a>
 			</li>
 		</ul>
@@ -48,7 +47,7 @@ import Card from '../components/Card.astro';
 	</section>
 
 
-	<section class="flex flex-col text-white m-10 p-5 tarjeta rounded-2xl ">
+	<section class="flex flex-col text-white m-10 p-5 tarjeta rounded-2xl  w-3/5">
 		<h1 class="text-3xl">Educación</h1>
 		<ul class="relative space-y-1 border-s-2 border-neutral-800 mt-6">
 			<li class="px-10 pb-10 pt-4">
@@ -61,18 +60,18 @@ import Card from '../components/Card.astro';
 	</section>
 
 
-	<section class="flex flex-row text-white m-10 p-5 tarjeta rounded-2xl ">
+	<section class="flex flex-row text-white m-10 p-5 tarjeta rounded-2xl  w-3/5">
 		<h1> Configuración de Linux </h1>
 	</section>
 
 
-	<section class="flex flex-col text-white m-10 p-5 tarjeta rounded-2xl ">
+	<section class="flex flex-col text-white m-10 p-5 tarjeta rounded-2xl  w-3/5">
 		<h1>Certificados</h1>
 	</section>
 
 
 
-	<footer class="flex flex-row justify-between text-white m-10 p-10 tarjeta rounded-2xl ">
+	<footer class="flex flex-row justify-between text-white m-10 p-10 tarjeta rounded-2xl  w-3/5">
 		<div>Jhoan Jimenez - 2024</div>
 		<ul class="flex flex-row gap-3">
 			<li>git</li>
