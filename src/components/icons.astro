@@ -1,0 +1,14 @@
+---
+interface Props {
+  icon: string[];
+}
+
+const props: Props = Astro.props;
+const { icon } = props;
+---
+
+<ul>
+  {icon.map((item, index) => (
+    <li> {item}</li>
+  ))}
+</ul>

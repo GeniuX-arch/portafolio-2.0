@@ -1,0 +1,93 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="Welcome to Astro.">
+	<main class="flex flex-row text-white m-10 p-5 tarjeta rounded-2xl">
+
+		<img src="" alt="">
+
+		<article class="m-5">
+			<div class=" flex flex-row justify-between">
+				<a href="" class="text-green-300 text-sm bg-green-950 p-1 rounded-3xl">Disponible para trabajar</a>
+				<ul class="flex flex-row gap-3">
+					<li>git</li>
+					<li>linkerdin</li>
+					<li>instagram</li>
+				</ul>
+			</div>
+			<h1 class="text-4xl">Hola, soy Jhoan Jimenez</h1>
+			<p class="text-gray-400">Un estudiante de sistemas de las uts en Santander. Soy un freelancer competitivo. Mi meta es crear aplicaciones eficientes, escalables y faciles de usar que marquen la diferencia</p>
+			<div class=" flex flex-row justify-between">
+				<div><img src="" alt=""> <p class="text-gray-400" >Colombia</p></div>
+				<a href="" class="text-gray-300 boton px-5 py-2 rounded-2xl
+				" >Contactame</a>
+			</div>
+		</article>
+	</main>	
+
+
+	<section class="flex flex-row text-white m-10 p-5 tarjeta rounded-2xl ">
+		<h1 class="text-3xl">Tecnologías</h1>
+	</section>
+
+
+	<section class="flex flex-col text-white m-10 p-5 tarjeta rounded-2xl ">
+		<h1 class="text-3xl">Proyectos</h1>
+		<ul>
+			<li>
+				<p>proyecto1</p>
+				<p>description</p>
+				<ul><li>tecnologias</li></ul>
+				<img src="" alt="">
+				<a href="" class="boton"><img src="" alt=""></a>
+			</li>
+		</ul>
+		
+	</section>
+
+
+	<section class="flex flex-col text-white m-10 p-5 tarjeta rounded-2xl ">
+		<h1 class="text-3xl">Educación</h1>
+		<ul class="relative space-y-1 border-s-2 border-neutral-800 mt-6">
+			<li class="px-10 pb-10 pt-4">
+				<div class="absolute -start-[6.5px] mt-2 h-3 w-3 rounded-full border border-neutral-600 bg-neutral-800"></div>
+				<p>2022 - Actual</p>
+				<h2>Desarrollo de sistemas informaticos</h2>
+				<p>Unidades Tecnologicas de Santander</p>
+			</li>
+		</ul>
+	</section>
+
+
+	<section class="flex flex-row text-white m-10 p-5 tarjeta rounded-2xl ">
+		<h1> Configuración de Linux </h1>
+	</section>
+
+
+	<section class="flex flex-col text-white m-10 p-5 tarjeta rounded-2xl ">
+		<h1>Certificados</h1>
+	</section>
+
+
+
+	<footer class="flex flex-row justify-between text-white m-10 p-10 tarjeta rounded-2xl ">
+		<div>Jhoan Jimenez - 2024</div>
+		<ul class="flex flex-row gap-3">
+			<li>git</li>
+			<li>linkerdin</li>
+			<li>instagram</li>
+		</ul>
+	</footer>
+</Layout>
+
+<style>
+	.tarjeta{
+		background:#1a1a1a;
+	}
+	.boton{
+
+		background: #262626;
+	}
+</style>
