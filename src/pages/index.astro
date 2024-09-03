@@ -4,7 +4,9 @@ import Card from '../components/Card.astro';
 ---
 
 <Layout title="Jhoan Jimenez - Portafolio" >
-	<main class="lg:flex lg:flex-row text-white m-10 p-5 tarjeta rounded-2xl lg:w-3/5 w-4/5 flex flex-col justify-center items-center">
+
+	<main class="lg:flex lg:flex-row text-white m-10 p-5 tarjeta rounded-2xl lg:w-3/5 w-4/5 flex flex-col justify-center items-center ">
+
 
 		<img src="/portafolio-2.0/Perfil.jpeg" alt="" class="w-64 h-64 rounded-2xl">
 
@@ -263,36 +265,36 @@ import Card from '../components/Card.astro';
 			<h1 class="text-3xl">Proyectos</h1>
 		</div>
 			<!-- Proyecto 1 -->
-		<ul class="grid grid-cols-2 gap-2">
+		<ul class="sm:grid sm:grid-cols-2 flex flex-wrap justify-center gap-4">
 			<li class="flex flex-col justify-center items-center">
 				<h2 class="text-xl">Proyecto de gestión de Horarios</h2>
 				<p class="text-gray-300 my-3 text-center">Proyecto que necesita las UTS para ahorrar tiempo y recursos en la creación de horarios teniendo en cuenta los contratos de los profesores</p>
-				<ul class="flex flex-row gap-4">
-					<li>tecnologias</li>
-					<li>tecnologias</li>
+				<ul class="flex flex-row gap-4 flex-wrap justify-center">
+					<li class="tecnologia px-3 py-1 rounded-full">Typescript</li>
+					<li class="tecnologia px-3 py-1 rounded-full">Laravel</li>
+					<li class="tecnologia px-3 py-1 rounded-full">React</li>
+					<li class="tecnologia px-3 py-1 rounded-full">Node.js</li>
+					<li class="tecnologia px-3 py-1 rounded-full">Tailwind</li>
 				</ul>
 				<img src="/portafolio-2.0/img/proyecto1.png"  class="rounded-2xl my-4"  alt="">
-				<a href="" class="boton w-full flex justify-center h-7 items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="size-4">  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path> <path d="M9 18c-4.51 2-5-2-7-2"></path>  </svg></a>
+				<a href="https://github.com/GeniuX-arch/proyecto-grado-frontend" class="boton w-full flex justify-center h-7 items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="size-4">  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path> <path d="M9 18c-4.51 2-5-2-7-2"></path>  </svg></a>
 			</li>
-			
-
-
 
 
 			<!-- Proyecto 2 -->
 			<li class="flex flex-col justify-center items-center">
 				<h2 class="text-xl">CRUD PHP</h2>
-				<p class="text-gray-300 my-3 text-center">Manejo de PHP con el protocolo HTTP, conectando una base de datos teniendo en cuenta la seguridad, el diseño y entre otras cosas.</p>
-				<ul class="flex flex-row gap-4">
-					<li>tecnologias</li>
-					<li>tecnologias</li>
+				<p class="text-gray-300 my-3 text-center">Manejo de PHP con el protocolo HTTP, conectando una base de datos teniendo en cuenta la seguridad, el diseño y entre otras cosas. Esto puede usarse como nomina</p>
+				<ul class="flex flex-row gap-4 flex-wrap justify-center">
+					<li class="tecnologia px-3 py-1 rounded-full">PHP</li>
+					<li class="tecnologia px-3 py-1 rounded-full">Tailwind</li>
+					<li class="tecnologia px-3 py-1 rounded-full">Postman</li>
 				</ul>
 				<img src="/portafolio-2.0/img/proyecto4.png"  class="rounded-2xl my-4"  alt="">
-				<a href="" class="boton w-full flex justify-center h-7 items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="size-4">  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path> <path d="M9 18c-4.51 2-5-2-7-2"></path>  </svg></a>
+				<a href="https://github.com/GeniuX-arch/crud-php" class="boton w-full flex justify-center h-7 items-center rounded-2xl"><svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" width="24" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" viewBox="0 0 24 24" class="size-4">  <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path> <path d="M9 18c-4.51 2-5-2-7-2"></path>  </svg></a>
 			</li>
 		</ul>
-		<a href="" class="boton w-full rounded-2xl flex flex-row justify-center items-center h-10 " >ver más proyectos</a>
-		
+		<a href="https://github.com/GeniuX-arch" class="boton w-full rounded-2xl flex flex-row justify-center items-center h-10 " >ver más proyectos</a>
 	</section>
 
 
@@ -316,16 +318,16 @@ import Card from '../components/Card.astro';
 				<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#fff" width="24" height="24"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.3308 15.9402L15.6608 14.6101C15.8655 14.403 16.1092 14.2384 16.3778 14.1262C16.6465 14.014 16.9347 13.9563 17.2258 13.9563C17.517 13.9563 17.8052 14.014 18.0739 14.1262C18.3425 14.2384 18.5862 14.403 18.7908 14.6101L20.3508 16.1702C20.5579 16.3748 20.7224 16.6183 20.8346 16.887C20.9468 17.1556 21.0046 17.444 21.0046 17.7351C21.0046 18.0263 20.9468 18.3146 20.8346 18.5833C20.7224 18.8519 20.5579 19.0954 20.3508 19.3L19.6408 20.02C19.1516 20.514 18.5189 20.841 17.8329 20.9541C17.1469 21.0672 16.4427 20.9609 15.8208 20.6501C10.4691 17.8952 6.11008 13.5396 3.35083 8.19019C3.03976 7.56761 2.93414 6.86242 3.04914 6.17603C3.16414 5.48963 3.49384 4.85731 3.99085 4.37012L4.70081 3.65015C5.11674 3.23673 5.67937 3.00464 6.26581 3.00464C6.85225 3.00464 7.41488 3.23673 7.83081 3.65015L9.40082 5.22021C9.81424 5.63615 10.0463 6.19871 10.0463 6.78516C10.0463 7.3716 9.81424 7.93416 9.40082 8.3501L8.0708 9.68018C8.95021 10.8697 9.91617 11.9926 10.9608 13.04C11.9994 14.0804 13.116 15.04 14.3008 15.9102L14.3308 15.9402Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
 				<h1 class="text-3xl">Referencias</h1>
 			</div>
-			<ul class=" grid grid-cols-4">
-				<li class="px-10 pb-10 pt-4 flex flex-col justify-center items-center">
+			<ul class=" flex flex-row justify-center flex-wrap">
+				<li class="px-10 pb-10 pt-4 flex flex-col justify-center items-center text-center">
 					<h2 class="text-xl ">Oscar Javier</h2>
 					<p class="text-base text-gray-300">Ingeniero de sistemas</p>
 					<p class="text-sm text-gray-400">Telefono: +57 315 6251656</p>
 				</li>
-				<li class="px-10 pb-10 pt-4 flex flex-col justify-center items-center">
-					<h2 class="text-xl ">Andres Camilo</h2>
-					<p class="text-base text-gray-300">Cliente</p>
-					<p class="text-sm text-gray-400">Telefono: +57 318 4778203</p>
+				<li class="px-10 pb-10 pt-4 flex flex-col justify-center text-center items-center ">
+					<h2 class="text-xl text-center">Andres Camilo</h2>
+					<p class="text-base text-gray-300  text-center">Cliente</p>
+					<p class="text-sm text-gray-400 text-center">Telefono: +57 318 4778203</p>
 				</li>
 			</ul>
 		</section>
@@ -345,7 +347,10 @@ import Card from '../components/Card.astro';
 </Layout>
 
 <style>
-	
+	.tecnologia{
+		background: #0f0f0f;
+		color:#b1b1b1
+	}	
 	.tarjeta{
 		background:#1a1a1a;
 	}
